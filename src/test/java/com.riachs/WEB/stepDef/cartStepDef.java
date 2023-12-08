@@ -60,7 +60,7 @@ public class cartStepDef extends baseTest {
     @Then("user click delete button for product:")
     public void userClickDeleteButtonForProduct(List<String> products) throws InterruptedException{
         cartpage.deteleProduct(products);
-        Thread.sleep(1500);
+        Thread.sleep(3000);
     }
 
     @When("user click add to cart button for all product")

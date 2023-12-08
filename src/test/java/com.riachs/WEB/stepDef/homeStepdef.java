@@ -14,7 +14,7 @@ public class homeStepdef extends baseTest {
     public void userIsOnHomepage() throws InterruptedException{
         HomePage = new homePage(driver);
         HomePage.userInHomePage();
-        Thread.sleep(1000);
+        Thread.sleep(1500);
     }
 
     @And("will direct go back to homepage")

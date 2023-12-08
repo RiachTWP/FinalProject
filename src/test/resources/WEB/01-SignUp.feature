@@ -6,7 +6,7 @@ Feature: SignUp
   Scenario: SignUp with valid data
     Given user is on homepage
     When user click button Sign Up
-    Then user input username with "febri12"
+    Then user input username with "febri13"
     Then user input password with "febri234"
     And user click SingUp button
     And get message "Sign up successful."
