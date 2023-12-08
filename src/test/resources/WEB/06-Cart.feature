@@ -37,8 +37,8 @@ Feature: Cart
   Scenario: user delete product in cart page
     Given user is on homepage
     Then user click add to cart button for these product:
-      | Sony xperia z5 |
       | Samsung galaxy s7 |
+      | Sony xperia z5 |
     Then user go to the cart page
     Then user click delete button for product:
       | Samsung galaxy s7 |

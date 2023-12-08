@@ -20,7 +20,7 @@ public class baseTest {
     public static Response res;
     protected void starDriver() {
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
+//        options.addArguments("--headless");
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(options);
    }

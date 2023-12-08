@@ -28,11 +28,12 @@ public class cartStepDef extends baseTest {
         cartpage = new cartPage(driver);
         cartpage.clickCartButton();
         cartpage.validationInCartPage();
-        Thread.sleep(2000);
+        Thread.sleep(1000);
     }
 
     @And("the cart page should contain:")
     public void theCartPageShouldContain(List<String> products) throws InterruptedException{
+        Thread.sleep(1000);
         cartpage.validationOfProduct(products);
         Thread.sleep(1000);
     }
@@ -60,7 +61,7 @@ public class cartStepDef extends baseTest {
     @Then("user click delete button for product:")
     public void userClickDeleteButtonForProduct(List<String> products) throws InterruptedException{
         cartpage.deteleProduct(products);
-        Thread.sleep(3000);
+        Thread.sleep(1000);
     }
 
     @When("user click add to cart button for all product")
@@ -71,6 +72,7 @@ public class cartStepDef extends baseTest {
 
     @And("the cart should contain all product")
     public void theCartShouldContainAllProduct() throws InterruptedException {
+        Thread.sleep(1000);
         cartpage.validationALlProducts();
     }
 

@@ -21,7 +21,7 @@ public class cartPage {
     private By productNameHomePage(String title){
         return By.xpath("//a[contains(text(), '" + title + "') ]"); }
     private By productNameCartPage(String title){
-        return By.xpath("//td[contains(text(), '" + title + "')]"); }
+        return By.xpath("//td[contains(text(), '" + title + "')]"); }//*[@id="tbodyid"]/tr/td[2]
 
     By cartButton = By.cssSelector("[id=\"cartur\"]");
     By cartTitle = By.xpath("//*[@id=\"page-wrapper\"]/div/div[1]/h2");

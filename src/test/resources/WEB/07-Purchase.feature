@@ -6,7 +6,7 @@ Feature: Purchase
     Given user is on homepage
     When user already login
     Then user click add to cart button for these product:
-      | Sony xperia z5 |
+      | Nokia lumia 1520 |
     Then user go to the cart page
     And user click Place Order button
     And user input Name "Sulaiman"
