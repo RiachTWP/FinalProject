@@ -8,7 +8,7 @@ Feature: About Us
     And user can see video about information company's
 
   @Postive-Test
-  Scenario: view about us information
+  Scenario: go to about us page and back to home page
     Given user is on homepage
     When user click about us button
     And user click close button

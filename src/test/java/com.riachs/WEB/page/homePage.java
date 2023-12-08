@@ -68,6 +68,14 @@ public class homePage {
         baseTest.validateProductPresence(driver, productDisplayed, expectedProductNames);
     }
 
+    public void backFirstPageProduct() {
+        List<String> expectedProductNames = Arrays.asList(
+                "Nokia lumia 1520", "Nexus 6", "Samsung galaxy s7", "Iphone 6 32gb", "Sony xperia z5",
+                "HTC One M9", "Sony vaio i5", "Sony vaio i7", "Apple monitor 24"
+        );
+        baseTest.validateProductPresence(driver, productDisplayed, expectedProductNames);
+    }
+
     public void ClikPhones() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         WebElement nextElement = wait.until(ExpectedConditions.elementToBeClickable(phonesCategoryButton));

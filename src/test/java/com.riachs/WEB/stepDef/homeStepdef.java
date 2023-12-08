@@ -51,7 +51,7 @@ public class homeStepdef extends baseTest {
 
     @Then("user will be directed back to the all product in first page displayed")
     public void userwillbedirectedbacktotheallproductinfirstpagedisplayed() throws InterruptedException {
-        HomePage.TheFirstPageProduct();
+        HomePage.backFirstPageProduct();
         Thread.sleep(1000);
     }
 

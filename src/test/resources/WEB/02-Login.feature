@@ -37,7 +37,7 @@ Feature: Log In
     Then get message "Please fill out Username and Password."
 
   @positivetest
-  Scenario: Login with valid email and password
+  Scenario: go to login page and back to the home page
     Given user is on homepage
     When user click button Log in
     Then click close button

@@ -43,7 +43,7 @@ Feature: Purchase
     And user input Month "January"
     And user input Year "2023"
     Then user click Purchase button
-    Then get popUpMessage "please add to cart product first."
+    Then transaction sucessfull and get pop up message "Thank you for your purchase!"
 
   @Positive-Test
   Scenario: Purchase one product without login

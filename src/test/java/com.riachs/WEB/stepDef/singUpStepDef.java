@@ -30,7 +30,7 @@ public class singUpStepDef extends baseTest {
         Thread.sleep(1000);
     }
 
-    @And("user clik SingUp button")
+    @And("user click SingUp button")
     public void userClikSingUpButton() throws InterruptedException{
         signupPage.ClikSingUpButton();
         Thread.sleep(1000);

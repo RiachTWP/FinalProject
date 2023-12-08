@@ -20,14 +20,14 @@ public class baseTest {
     public static Response res;
     protected void starDriver() {
         ChromeOptions options = new ChromeOptions();
-//        options.addArguments("--headless");
+        options.addArguments("--headless");
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(options);
    }
 
-   public static File getJsonSchemaData(String JSONFile){
-       return new File("src/test/java/com/riachs/API/JsonSchema/" + JSONFile);
-   }
+    public static File getJsonSchemaData(String JSONFile){
+        return new File("src/test/java/com.riachs/API/JsonSchema/" + JSONFile);
+    }
 
     public static String generateEmail(){
         String allowedChars = "abcdefghijklmnopqrstuvwxyz" + "1234567890" + "-_.";

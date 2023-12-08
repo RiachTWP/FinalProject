@@ -18,13 +18,13 @@ Feature: Home
     And show the all product Phones
 
   @Positive-Test
-  Scenario: user show all product Phones
+  Scenario: user show all product Laptops
     Given user is on homepage
     Then user click Laptops category
     And show the all product Laptops
 
   @Positive-Test
-  Scenario: user show all product Phones
+  Scenario: user show all product Monitors
     Given user is on homepage
     Then user click Monitors category
     And show the all product Monitors
