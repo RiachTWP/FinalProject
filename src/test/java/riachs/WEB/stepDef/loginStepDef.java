@@ -1,10 +1,10 @@
 package riachs.WEB.stepDef;
 
-import com.riachs.WEB.page.loginPage;
+import riachs.WEB.page.loginPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import com.riachs.baseTest;
+import riachs.baseTest;
 import io.cucumber.java.sl.In;
 
 public class loginStepDef extends baseTest {

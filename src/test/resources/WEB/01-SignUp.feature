@@ -1,7 +1,6 @@
-@Web
 Feature: SignUp
 
-  @Positive-Test
+  @WEB
   Scenario: SignUp with valid data
     Given user is on homepage
     When user click button Sign Up
@@ -12,7 +11,7 @@ Feature: SignUp
     And will direct go back to homepage
 
 
-  @Negative-Test
+  @WEB
   Scenario: user don't fill the password
     Given user is on homepage
     When user click button Sign Up
@@ -21,7 +20,7 @@ Feature: SignUp
     And get message "Please fill out Username and Password."
     And will direct go back to homepage
 
-  @Negative-Test
+  @WEB
   Scenario: user don't fill the username
     Given user is on homepage
     When user click button Sign Up
@@ -31,7 +30,7 @@ Feature: SignUp
     And will direct go back to homepage
 
 
-  @Positive-Test
+  @WEB
   Scenario: close Sign Up menu
     Given user is on homepage
     When user click button Sign Up

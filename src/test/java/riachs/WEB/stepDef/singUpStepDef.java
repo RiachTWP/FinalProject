@@ -3,8 +3,8 @@ package riachs.WEB.stepDef;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import com.riachs.baseTest;
-import com.riachs.WEB.page.singUpPage;
+import riachs.baseTest;
+import riachs.WEB.page.singUpPage;
 
 public class singUpStepDef extends baseTest {
     protected singUpPage signupPage;

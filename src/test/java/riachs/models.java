@@ -4,8 +4,8 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.json.JSONObject;
-import static com.riachs.baseTest.*;
-import static com.riachs.baseTest.generateEmail;
+import static riachs.baseTest.*;
+import static riachs.baseTest.generateEmail;
 
 
 public class models {

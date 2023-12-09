@@ -1,10 +1,10 @@
 package riachs.API;
 
-import com.riachs.API.page.deleteApiPage;
+import riachs.API.page.deleteApiPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import com.riachs.API.page.putApiPage;
+import riachs.API.page.putApiPage;
 
 
 public class updateStepDef {

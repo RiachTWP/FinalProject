@@ -1,7 +1,6 @@
-@Web
 Feature: Contact
 
-  @Positive-Test
+  @WEB
   Scenario: sumbit the contact with valid data
     Given user is on homepage
     When user click Contact
@@ -11,7 +10,7 @@ Feature: Contact
     And user click Send Message
     Then get message "Thanks for the message!!"
 
-  @Negative-Test
+  @WEB
   #Failed because get message "Thanks for the message!!"
   Scenario: send message without fill Contact Email, Contact Name, and Message
     Given user is on homepage
@@ -19,7 +18,7 @@ Feature: Contact
     And user click Send Message
     Then get message "Please fill out Contact Email, Contact Name, and Message."
 
-  @Negative-Test
+  @WEB
   #Failed because get message "Thanks for the message!!"
   Scenario: send message without fill Contact Email
     Given user is on homepage
@@ -29,7 +28,7 @@ Feature: Contact
     And user click Send Message
     Then get message "Please fill out Contact Email"
 
-  @Negative-Test
+  @WEB
   #Failed because get message "Thanks for the message!!"
   Scenario: send message without fill Contact Name
     Given user is on homepage
@@ -39,7 +38,7 @@ Feature: Contact
     And user click Send Message
     Then get message "Please fill out Contact Email, Contact Name, and Message."
 
-  @Negative-Test
+  @WEB
   #Failed because get message "Thanks for the message!!"
   Scenario: send message without fill Contact Email valid
     Given user is on homepage
@@ -51,7 +50,7 @@ Feature: Contact
     Then get message "Please fill out Contact Email, Contact Name, and Message."
 
 
-  @Positive-Test
+  @WEB
   Scenario: sumbit the contact with valid data
     Given user is on homepage
     When user click Contact

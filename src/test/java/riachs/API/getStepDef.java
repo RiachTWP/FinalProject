@@ -1,16 +1,16 @@
 package riachs.API;
 
-import com.riachs.endPoint;
+import riachs.endPoint;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import com.riachs.API.page.getApiPage;
+import riachs.API.page.getApiPage;
 import io.cucumber.java.en.When;
 
 import java.util.Map;
 
-import static com.riachs.baseTest.res;
-import static com.riachs.models.req;
+import static riachs.baseTest.res;
+import static riachs.models.req;
 import static org.hamcrest.core.IsNull.notNullValue;
 
 

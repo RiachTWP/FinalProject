@@ -1,8 +1,8 @@
 package riachs.API.page;
-import com.riachs.endPoint;
-import static com.riachs.models.*;
-import static com.riachs.baseTest.*;
-import com.riachs.baseTest;
+import riachs.endPoint;
+import static riachs.models.*;
+import static riachs.baseTest.*;
+import riachs.baseTest;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import org.hamcrest.Matchers;
 import org.junit.Assert;

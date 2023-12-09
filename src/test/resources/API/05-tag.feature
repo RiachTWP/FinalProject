@@ -1,7 +1,6 @@
-@API
 Feature: Tag API Automation
 
-  @Postive-Test
+  @API
   Scenario: Get list users
     Given user go to The URL "Get Tag"
     Then hit api tag users

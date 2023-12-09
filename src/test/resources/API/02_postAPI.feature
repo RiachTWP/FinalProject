@@ -1,7 +1,6 @@
-@API
 Feature: Post API Automation
 
-  @Positive-Test
+  @API
   Scenario: Test create new user normal
     Given go to the URL "Create Data"
     And hit api post create new users

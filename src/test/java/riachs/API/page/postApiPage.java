@@ -1,9 +1,9 @@
 package riachs.API.page;
-import com.riachs.endPoint;
-import static com.riachs.models.*;
+import riachs.endPoint;
+import static riachs.models.*;
 
-import static com.riachs.baseTest.*;
-import com.riachs.baseTest;
+import static riachs.baseTest.*;
+import riachs.baseTest;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.path.json.JsonPath;
 import org.assertj.core.api.Assertions;

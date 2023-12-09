@@ -1,7 +1,6 @@
-@Web
 Feature: Cart
 
-  @Positive-Test
+  @WEB
   Scenario: user add to cart 1 product
     Given user is on homepage
     Then user click add to cart button for these product:
@@ -11,7 +10,7 @@ Feature: Cart
       | Sony xperia z5 |
     And calculated total price is accurate
 
-  @Positive-Test
+  @WEB
   Scenario: user add to cart 2 product with sampe product
     Given user is on homepage
     Then user click add to cart button 2 times for these product:
@@ -21,7 +20,7 @@ Feature: Cart
       | Sony xperia z5 |
     And calculated total price is accurate
 
-  @Positive-Test
+  @WEB
   Scenario: user add to cart 2 product with different product
     Given user is on homepage
     Then user click add to cart button for these product:
@@ -33,7 +32,7 @@ Feature: Cart
       | Samsung galaxy s7 |
     And calculated total price is accurate
 
-  @Positive-Test
+  @WEB
   Scenario: user delete product in cart page
     Given user is on homepage
     Then user click add to cart button for these product:
@@ -46,7 +45,7 @@ Feature: Cart
       | Sony xperia z5 |
     And calculated total price is accurate
 
-  @Positive-Test
+  @WEB
   Scenario: user add all products
     Given user is on homepage
     When user click add to cart button for all product
@@ -54,7 +53,7 @@ Feature: Cart
     And the cart should contain all product
     And calculated total price is accurate
 
-  @Positive-Test
+  @WEB
   Scenario: user go to cart page and back to home page
     Given user is on homepage
     Then user go to the cart page

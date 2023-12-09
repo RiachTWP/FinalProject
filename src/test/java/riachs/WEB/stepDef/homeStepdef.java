@@ -1,9 +1,9 @@
 package riachs.WEB.stepDef;
 
-import com.riachs.WEB.page.homePage;
+import riachs.WEB.page.homePage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
-import com.riachs.baseTest;
+import riachs.baseTest;
 import io.cucumber.java.en.When;
 
 public class homeStepdef extends baseTest {

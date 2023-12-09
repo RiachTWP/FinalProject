@@ -1,7 +1,6 @@
-@Web
 Feature: Purchase
 
-  @Positive-Test
+  @WEB
   Scenario: Purchase one product with valid data
     Given user is on homepage
     When user already login
@@ -18,7 +17,7 @@ Feature: Purchase
     Then user click Purchase button
     Then transaction sucessfull and get pop up message "Thank you for your purchase!"
 
-  @Negative-Test
+  @WEB
   Scenario: Purchase one product with blank data
     Given user is on homepage
     When user already login
@@ -29,7 +28,7 @@ Feature: Purchase
     Then user click Purchase button
     Then get popUpMessage "Please fill out Name and Creditcard."
 
-  @Negative-Test
+  @WEB
     #Failed without product can purchase
   Scenario: dont add to cart product
     Given user is on homepage
@@ -45,7 +44,7 @@ Feature: Purchase
     Then user click Purchase button
     Then get popUpMessage "please add to cart product first."
 
-  @Positive-Test
+  @WEB
   Scenario: Purchase one product without login
     Given user is on homepage
     Then user click add to cart button for these product:
@@ -61,7 +60,7 @@ Feature: Purchase
     Then user click Purchase button
     Then transaction sucessfull and get pop up message "Thank you for your purchase!"
 
-  @Positive-Test
+  @WEB
   Scenario: user open place order page and back to the homepage
     Given user is on homepage
     Then user go to the cart page

@@ -1,7 +1,6 @@
-@API
 Feature: Delete API Automation
 
-  @Test
+  @API
   Scenario: Test delete user normal
     Given go to url for "Create Data"
     And hit the api post create new users

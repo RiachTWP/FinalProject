@@ -1,6 +1,6 @@
 package riachs.WEB.stepDef;
-import com.riachs.baseTest;
-import com.riachs.WEB.page.purchasePage;
+import riachs.baseTest;
+import riachs.WEB.page.purchasePage;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;

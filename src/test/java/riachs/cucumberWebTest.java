@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-    glue = {"com.riachs"},
+    glue = {"riachs"},
     features = {"src/test/resources/WEB"},
     plugin = {"pretty",
             "html:reports/test-report-web.html",

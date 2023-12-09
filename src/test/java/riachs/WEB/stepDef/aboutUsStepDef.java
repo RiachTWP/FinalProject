@@ -2,8 +2,8 @@ package riachs.WEB.stepDef;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.When;
-import com.riachs.WEB.page.aboutUsPage;
-import com.riachs.baseTest;
+import riachs.WEB.page.aboutUsPage;
+import riachs.baseTest;
 
 public class aboutUsStepDef extends baseTest{
 
