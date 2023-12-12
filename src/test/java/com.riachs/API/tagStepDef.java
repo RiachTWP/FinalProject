@@ -1,6 +1,5 @@
 package com.riachs.API;
 
-import com.riachs.API.page.getApiPage;
 import com.riachs.API.page.tagPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;

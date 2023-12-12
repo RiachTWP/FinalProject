@@ -10,7 +10,6 @@ import org.junit.Assert;
 import java.io.File;
 import java.util.Map;
 
-import static org.assertj.core.api.Assertions.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsNull.notNullValue;
 import static org.hamcrest.CoreMatchers.equalTo;

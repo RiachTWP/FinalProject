@@ -52,8 +52,8 @@ tasks.register('cucumberWebTest') {
             args = [
                     '--plugin', 'html:reports/cucumber-web-report.html',
                     '--plugin', 'pretty',
-                    '--glue', 'com.riachs',
-                    '--tags', "${tags}",
+                    '--glue', 'riachs',
+                    '--tags', "@WEB",
                     'src/test/resources/WEB'
             ]
         }
@@ -70,8 +70,8 @@ tasks.register('cucumberApiTest') {
             args = [
                     '--plugin', 'html:reports/cucumber-api-report.html',
                     '--plugin', 'pretty',
-                    '--glue', 'com.riachs',
-                    '--tags', "${tags}",
+                    '--glue', 'riachs',
+                    '--tags', "@API",
                     'src/test/resources/API'
             ]
         }

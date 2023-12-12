@@ -6,7 +6,6 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import com.riachs.baseTest;
 import com.riachs.WEB.page.cartPage;
-import io.cucumber.java.sl.In;
 
 import java.util.List;
 

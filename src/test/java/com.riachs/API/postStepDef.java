@@ -4,8 +4,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import com.riachs.API.page.postApiPage;
-import io.cucumber.java.en.When;
-import com.riachs.models;
+
 
 import java.util.Map;
 

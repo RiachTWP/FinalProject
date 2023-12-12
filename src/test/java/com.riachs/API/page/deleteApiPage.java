@@ -3,8 +3,6 @@ import com.riachs.endPoint;
 import static com.riachs.models.*;
 import static com.riachs.baseTest.*;
 import static org.assertj.core.api.Assertions.assertThat;
-
-import com.riachs.baseTest;
 import io.restassured.path.json.JsonPath;
 
 public class deleteApiPage {

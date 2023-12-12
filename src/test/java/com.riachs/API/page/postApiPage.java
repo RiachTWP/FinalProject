@@ -2,19 +2,13 @@ package com.riachs.API.page;
 import com.riachs.endPoint;
 import static com.riachs.models.*;
 
+
 import static com.riachs.baseTest.*;
 import com.riachs.baseTest;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.path.json.JsonPath;
-import org.assertj.core.api.Assertions;
-
 
 import java.io.File;
-import java.util.Map;
-
-
-import static org.hamcrest.CoreMatchers.equalTo;
-import static org.hamcrest.core.IsNull.notNullValue;
 import static org.assertj.core.api.Assertions.*;
 import static org.junit.Assert.assertEquals;
 

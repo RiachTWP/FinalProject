@@ -121,7 +121,7 @@ public class cartPage {
     }
 
     public void addAllProduct() throws InterruptedException{
-        Preferences pref = Preferences.userRoot().node("com.riachs.WEB");
+        Preferences pref = Preferences.userRoot().node("riachs.WEB");
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         List<String> addProducts = new ArrayList<>();
         int totalPages = 2 ;
@@ -154,7 +154,7 @@ public class cartPage {
     }
 
     public void validationALlProducts() throws InterruptedException {
-        Preferences pref = Preferences.userRoot().node("com.riachs.WEB");
+        Preferences pref = Preferences.userRoot().node("riachs.WEB");
         String[] expectedNames = pref.get("addProducts", null).split(",");
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 

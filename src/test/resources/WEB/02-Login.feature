@@ -1,7 +1,6 @@
-@Web
 Feature: Log In
 
-  @positivetest
+  @WEB
   Scenario: Login with valid email and password
     Given user is on homepage
     When user click button Log in
@@ -10,7 +9,7 @@ Feature: Log In
     When user click login button
     Then user is on homepage
 
-  @negativeTest
+  @WEB
   Scenario: Login with invalid email and password
     Given user is on homepage
     When user click button Log in
@@ -19,7 +18,7 @@ Feature: Log In
     When user click login button
     Then get message "User does not exist."
 
-  @negativeTest
+  @WEB
   Scenario: Login with valid email and invalid password
     Given user is on homepage
     When user click button Log in
@@ -28,7 +27,7 @@ Feature: Log In
     When user click login button
     Then get message "Wrong password."
 
-  @negativeTest
+  @WEB
   Scenario: Login with valid email and blank password
     Given user is on homepage
     When user click button Log in
@@ -36,7 +35,7 @@ Feature: Log In
     When user click login button
     Then get message "Please fill out Username and Password."
 
-  @positivetest
+  @WEB
   Scenario: go to login page and back to the home page
     Given user is on homepage
     When user click button Log in

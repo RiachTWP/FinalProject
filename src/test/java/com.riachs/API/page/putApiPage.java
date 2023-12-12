@@ -7,12 +7,8 @@ import static com.riachs.baseTest.res;
 import static com.riachs.models.updateUser;
 import static com.riachs.models.postCreateUser;
 import static org.assertj.core.api.Assertions.assertThat;
-import static com.riachs.models.*;
-import static com.riachs.baseTest.*;
-import static org.assertj.core.api.Assertions.assertThat;
 
-import com.riachs.baseTest;
-import io.restassured.path.json.JsonPath;
+
 
 public class putApiPage {
     String setURL,  globalUserId = null;
